@@ -1,0 +1,61 @@
+//Become one list
+
+export let recordList = [
+    { group: [1, 1, 1 ], id: "1", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "CO" },
+    { group: [1, 1, 1 ], id: "2", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: [2, 1, 2 ], id: "39726a3b-be93-4868-afe9-253dc1a15b20", first: "J", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: [2, 2, 2 ], id: "4", first: "Joan", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: [3, 1, 3 ], id: "5",  first: "Johann", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"},
+
+
+    { group: [3, 1, 3 ], id: "6",  first: "J P", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"},
+    { group: [3, 1, 3 ], id: "7",  first: "J W", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"},
+    { group: [3, 1, 3 ], id: "8",  first: "J X", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"},
+    { group: [3, 1, 3 ], id: "9",  first: "John E", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"},
+    { group: [3, 1, 3 ], id: "10",  first: "Johann P", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"},
+
+    { group: [4, 1, 4 ], id: "11", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "CO" },
+    { group: [4, 1, 4 ], id: "12", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: [5, 1, 4 ], id: "13", first: "J", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: [5, 2, 4 ], id: "14", first: "Joan", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: [6, 1, 4 ], id: "15",  first: "Johann", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"},
+
+
+];
+
+/*
+export let proposedList = [
+    { group: 1, id: "1", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "CO" },
+    { group: 1, id: "2", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: 1, id: "39726a3b-be93-4868-afe9-253dc1a15b20", first: "J", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: 2, id: "4", first: "Joan", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: 1, id: "5", first: "Johann", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"}
+];
+
+export let customList = [
+    { group: 1, id: "1", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "CO" },
+    { group: 2, id: "2", first: "John", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: 3, id: "39726a3b-be93-4868-afe9-253dc1a15b20", first: "J", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: 2, id: "4", first: "Joan", last: "Lilley", address: "220 Pawnee", city: "Boulder", state: "Colorado" },
+    { group: 4, id: "5",  first: "Johann", last:"Lilley", address: "200 Pawnee", city: "Boulder", state: "CO"}
+];
+*/
+
+// customGroups
+
+
+// export const colors = [
+//     #1DD9C3,
+//     #16D9F1,
+//     #1CE6F2,
+//     #12DCDB,
+//     #1BF1DE,
+//     #16E0EC,
+//     #1BEEF4,
+//     #1DEADA,
+//     #1CFFCC,
+//     #1FCC99,
+//     #1FFFCC,
+//     #1FCCCC,
+//     #1FE7F5,
+// ];

@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: cornflowerblue;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* match group top level object classes to control its hide/show */
+.grouper-appear {
+  opacity: 0.1;
+  visibility: hidden;
+}
+.grouper-appear.grouper-appear-active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 2s ease-in;
+}
+
+/*
+U N U S E D
+.grouper-enter {
+  opacity: 0.1;
+  visibility: hidden;
+}
+.grouper-enter.grouper-enter-active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 2000ms ease-in;
+}
+.grouper-leave {
+  opacity: 1;
+}
+.grouper-leave.grouper-leave-active {
+  opacity: 0.1;
+  transition: opacity 2000ms ease-in;
+}
+*/
+
+/* match classes */
+.match-group {
+  margin: auto;
+  width: 90%;
+  min-width: 300px;
+  min-height: 60px;
+  border-radius: 8px;
+  border: 2px solid #555;
+  margin-bottom: 20px;
+}
+
+.match-group-addon {
+  /*background-color: rgba(220,57,18, 0.4);*/
+  /*background: rgba(59,62,172,0.6);*/
+  background: rgba(170,170,170,1);
+}
+
+.match-group-btns {
+  padding-bottom: 15px;
+}
+
+.match-btn {
+    width: 120px;
+    text-align: center;
+}
+
+.match-btn a {
+    color: black;
+}
+.match-btn a:hover {
+    /* text-decoration: none; */
+    cursor: pointer;
+    *cursor: hand;
+}
+
+
+#match-group-buttons {
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.match-group-header {
+  margin-bottom: 25px;
+}
+
+.match-group-plus {
+  min-height: 40px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.match-group-record {
+  /*padding: 15px 5px 2px 5px;*/
+  min-height: 20px;
+  /*border: 1px solid black;*/
+  /*border-radius: 8px;*/
+  /*margin: 5px;*/
+}
+
+.match-group-record table {
+  margin: 0 auto;
+  width: 94%;
+  background: lightgray;
+
+}
+
+.match-group-record td {
+  border: 1px solid #222;
+
+}
+
+/*.match-group-record tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+.match-group-record tr:first-child td:last-child { border-top-right-radius: 10px; }
+.match-group-record tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+.match-group-record tr:last-child td:last-child { border-bottom-right-radius: 10px; }*/
+
+
+.match-group-hover {
+  background: #222;
+}
+
+.match-record {
+  text-align: left;
+  padding: 2px 5px 2px 5px;
+  vertical-align: middle;
+}
+
+/* widths */
+.w60 {
+  width: 60px;
+}
+
+/*
+.well {
+  background: #F0F0F0;
+}
+*/
+
+/* Match Grouper colors for each of the draggable groups */
+.group1 {
+    /*background-color: #3366CC; */
+    background: rgba(51,102,204, 0.5);
+    color: black;
+}
+.group2 {
+  /*background-color: #DC3912;*/
+  background: rgba(220,57,18, 0.4);
+  color: black;
+}
+.group3 {
+    /* background-color:  #FF9900; */
+    background: rgba(255,153,0, 0.5);
+    color: black;
+}
+.group4 {
+    /* background-color: #109618; */
+    background: rgba(16,150,24, 0.4);
+    color: black;
+}
+
+.group5 {
+    /* background-color: #990099; */
+    background: rgba(153,0,153, 0.4);
+    color: black;
+}
+.group6 {
+    /* background-color: #3B3EAC; */
+    background: rgba(59,62,172, 0.6);
+    color: black;
+}
+.group7 {
+    /* background-color: #0099C6; */
+    background: rgba(0,153,198, 0.6);
+    color: black;
+}
+.group8 {
+    /* background-color: #DD4477; */
+    background: rgba(221,68,119, 0.6);
+    color: black;
+}
+
+.group9 {
+    /* background-color: #66AA00; */
+    background: rgba(102,170,0, 0.6);
+    color: black;
+}
+.group10 {
+    /* background-color: #B82E2E; */
+    background: rgba(184, 46, 46, 0.6);
+    color: black;
+}
+.group11 {
+  /*background-color: #316395;*/
+    background: rgba(49,99,149, 0.6);
+    color: black;
+}
+.group12 {
+  /*background-color: #994499;*/
+    background: rgba(153,68,153, 0.6);
+    color: black;
+}
+
+.group13 {
+  /*background-color: #22AA99;*/
+    background: rgba(34,170,153, 0.6);
+    color: black;
+}
+.group14 {
+  /*background-color: #AAAA11;*/
+    background: rgba(170,170,17, 0.6);
+    color: black;
+}
+.group15 {
+  /*background-color: #6633CC;*/
+    background: rgba(49,99,149, 0.6);
+    color: black;
+}
+.group16 {
+  /*background-color: #E67300;*/
+    background: rgba(230,115,0, 0.6);
+    color: black;
+}
+
+.group17 {
+    /*background-color: #8B0707;*/
+    background: rgba(139, 7,7, 0.6);
+    color: black;
+}
+.group18 {
+  /*background-color: #329262;*/
+    background: rgba(50,146,98,0.6);
+    color: black;
+}
+.group19 {
+  /*background-color: #5574A6;*/
+    background: rgba(85,116,166,0.6);
+    color: black;
+}
+.group20 {
+  /*background-color: #3B3EAC;*/
+    background: rgba(59,62,172,0.6);
+    color: black;
+}
